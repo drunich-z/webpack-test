@@ -1,0 +1,23 @@
+{
+  "name": "webpack-course-2020",
+  "version": "1.0.0",
+  "description": "webpack training",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Zverev Andrey <zverev@test.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
